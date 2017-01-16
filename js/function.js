@@ -47,7 +47,5 @@ $(document).ready(function () {
 });
 
 $(window).on('load', function () {
-    setTimeout(function(){
-      $(".se-pre-con").fadeOut("slow");
-    }, 3000);
+    $(".se-pre-con").fadeOut("slow");;
   });
